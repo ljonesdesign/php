@@ -1,0 +1,49 @@
+body {
+
+background-image: url('images/gray_gradient.jpg');
+background-repeat: repeat-x;
+background-color: #d3d3d5;
+
+ }
+
+.logo {
+  display: block;
+     margin-left: auto;
+     margin-right: auto
+   }
+
+
+.site-header {
+ font-size: 12pt;
+ padding-top: 13px;
+ }
+
+ .gallery li {
+    list-style: none;
+    float: left;
+    margin: 10px 20px 20px 10px;
+	}
+
+.gallery {
+    display: block;
+    padding-left: 1px;
+    padding-top: 1px;
+	}
+
+#dropshadow {
+border: 5px solid;
+border-color:white;
+ -moz-box-shadow: 4px 4px 9px #000000;; /* Firefox */
+ -webkit-box-shadow: 4px 4px 9px #000; /* Safari/Chrome */
+ box-shadow: 4px 4px 9px #000; /* Opera and other CSS3 supporting browsers */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000')";/* IE 8 */
+ : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000');/* IE 5.5 - 7 */
+
+}
+
+.gallery-detail-nav {
+   display: block;
+   width: 79px;
+   margin-left: auto;
+   margin-right: auto;
+}
